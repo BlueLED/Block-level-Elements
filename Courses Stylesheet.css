@@ -1,0 +1,118 @@
+header {
+    font-size: 18pt;
+    color: rgb(224, 224, 224);
+    background-color: rgb(16, 16, 16);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+nav {
+    font-size: 13pt;
+}
+
+nav ul {
+    padding-left: 0;
+    width: 12em;
+}
+
+nav ul li {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+article {
+    width: 40em;
+}
+
+article nav {
+    font-size: 10pt;
+}
+
+article nav ol {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+article nav ol li {
+    list-style-type: none;
+    background-color: rgb(16, 16, 16);
+    color: rgb(224, 224, 224);
+    padding: 0.5em;
+}
+
+article nav ol li.current {
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+}
+
+article section.main {
+     border: 1px solid rgb(196, 196, 196);
+     padding-left: 0.5em;
+     padding-right: 0.5em;
+}
+
+article section.main section {
+    margin-top: 1em;
+}
+
+article dl dt {
+    font-weight: bold;
+}
+
+article dl dd {
+    margin-top: 0.3em;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+table caption {
+    margin-bottom: 0.3em;
+}
+
+table thead th{
+    color: rgb(224, 224, 224);
+    background-color: rgb(16, 16, 16);
+}
+
+table {
+    border-spacing: 0;
+    border: 1px solid rgb(196, 196, 196);
+    margin-bottom: 0.5em;
+}
+
+table th {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    padding-right:0.5em;
+    text-align: left;
+}
+
+table td{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: left;
+}
+
+table tbody th {
+    background-color: rgb(224, 224, 224);
+    font-weight: normal;
+    font-style: italic;
+}
+
+table tbody td {
+    background-color: rgb(224, 224, 224);
+}
+
+footer {
+    font-size: 8pt;
+    color: rgb(224, 224, 224);
+    background-color: rgb(16, 16, 16);
+    padding: 2em;
+    margin-top: 2em;
+    white-space: pre;
+}
